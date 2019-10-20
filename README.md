@@ -87,7 +87,8 @@ MediaQuery - Establishes a subtree in which media queries resolve to the given d
 Spacer - Spacer creates an adjustable, empty spacer that can be used to tune the spacing between widgets in a Flex container, like Row or Column. The Spacer widget will take up any available space, so setting the Flex.mainAxisAlignment on a flex container that contains a Spacer to MainAxisAlignment.spaceAround, MainAxisAlignment.spaceBetween, or MainAxisAlignment.spaceEvenly will not have any visible effect: the Spacer has taken up all of the additional space, therefore there is none left to redistribute.
 
 InheritedWidget - Base class for widgets that efficiently propagate information down the tree. To obtain the nearest instance of a particular type of inherited widget from a build context, use BuildContext.inheritFromWidgetOfExactType. Inherited widgets, when referenced in this way, will cause the consumer to rebuild when the inherited widget itself changes state.
-AnimatedIcon class Shows an animated icon at a given animation progress.
+
+AnimatedIcon - Shows an animated icon at a given animation progress.
 The available icons are specified in AnimatedIcons.
 
 
